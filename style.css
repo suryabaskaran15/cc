@@ -1,0 +1,58 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(206, 204, 71, 0.5),
+      rgba(206, 204, 71, 0.5)
+    ),
+    url(image/b2.jpg);
+  mask-mode: alpha;
+}
+.topleft img {
+  position: absolute;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  flex: 1;
+  text-align: right;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: honeydew;
+  font-size: 20px;
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: black;
+  font-weight: bold;
+}
+.center {
+  margin-top: 10%;
+  color: cornsilk;
+  text-align: center;
+  font-size: 40px;
+  animation-name: centerword;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes centerword {
+  from {
+    color: violet;
+  }
+  to {
+    color: blanchedalmond;
+  }
+}
