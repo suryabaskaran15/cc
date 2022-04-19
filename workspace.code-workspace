@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\lenovo\\.vscode\\extensions"
+		},
+		{
+			"path": "..\\currency converter"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "extensions"
+	}
+}
