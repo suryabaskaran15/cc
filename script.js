@@ -1,6 +1,6 @@
 
 const okBtn= document.getElementById('ok-btn');
-let result;
+var result;
 
 function conversion(){
     const currencyfrom = document.getElementById('countries-from').value;
